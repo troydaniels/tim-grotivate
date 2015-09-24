@@ -1,0 +1,19 @@
+.tim-grotivate {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: white;
+}
+  
+.tim-grotivate .tim-image {
+    position: static;
+    bottom: 0px;
+}
+
+.tim-grotivate .tim-quote{
+    position: relative; 
+    left: 300px;
+    bottom: 110px;
+    font-size: large;
+    font-family: fantasy;    
+}
