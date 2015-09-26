@@ -5,7 +5,7 @@ if (timEl == null) {
     //Try and include Tim on page
     var div = document.createElement('div');
     div.className = 'tim-grotivate';
-    div.innerHTML = '<div class="tim-image"><img id="timImage" src='+timURL+' /></div><div class="tim-quote" id="timsays">'+getInspiration()+'</div>';
+    div.innerHTML = '<div class="tim-image"><img id="timImage" src='+timURL+' /></div><div class="tim-quote" id="quote">'+getInspiration()+'</div>';
     document.body.appendChild(div);
 
     //Does he live?
@@ -15,7 +15,7 @@ if (timEl == null) {
     };
 } else {
     //Tim is already here. Change quote.
-    document.getElementById("timsays").value = getInspiration();
+    document.getElementById('quote').innerHTML = getInspiration();
 }
 
 function getInspiration(){
