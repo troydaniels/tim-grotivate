@@ -5,7 +5,8 @@ if (timEl == null) {
     //Try and include Tim on page
     var div = document.createElement('div');
     div.className = 'tim-grotivate';
-    div.innerHTML = '<div class="tim-image"><img id="timImage" src='+timURL+' /></div><div class="tim-quote" id="quote">'+getInspiration()+'</div>';
+    div.innerHTML = '<div class="tim-image"><img id="timImage" src='+timURL+' height="100" width="100" /></div>'
+    div.innerHTML += '<div class="tim-quote" id="quote">'+getInspiration()+'</div>';
     document.body.appendChild(div);
 
     //Does he live?
@@ -15,8 +16,12 @@ if (timEl == null) {
     };
 } else {
     //Tim is already here. Change quote.
+    document.querySelector('div.tim-grotivate').style.display = 'inline';
     document.getElementById('quote').innerHTML = getInspiration();
 }
+
+setTimeout(function(){ document.querySelector('div.tim-grotivate').style.display = 'none';
+; }, 5000);
 
 function getInspiration(){
    var quote = "Tim says: ";
@@ -25,9 +30,7 @@ function getInspiration(){
 }
 
 function randomQuote(){
-
    var quotes =[
-                  "This is Gro-tivational!",
                   "Do you like me now?",
                   "Quote me, biatch!"
                ];
