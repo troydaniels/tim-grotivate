@@ -2,7 +2,7 @@
     position: fixed;
     z-index: 10;
     left: relative;
-    width: 60%;
+    width: 750px;
     height: 130px;
     top: 40%;
     background: #888888;
@@ -31,14 +31,7 @@
     left: 175px;
     top: 45px;
     width: 65%;
-    font-size: x-large;
+    font-size: large;
     font-family: fantasy;    
-}
-
-
-.tim-grotivate .tim-hide  {
-    opacity: 0;
-    width: 0%;
-    height: 0%;
 }
 

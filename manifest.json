@@ -5,6 +5,7 @@
   "permissions": [
     "activeTab",
     "idle"
+
   ],
   "background": {
     "scripts": ["background.js"],
@@ -20,10 +21,11 @@
               "http://*/*",
               "https://*/*"
           ],  
-          "css": ["inject.css"]
+          "css": ["inject.css"],
+          "js": ["reddit.js"]
         }
   ],
   "options_page": "options.html",
-  "web_accessible_resources": ["timLarge.png"],
+  "web_accessible_resources": ["timLarge.png", "reddit.js"],
   "manifest_version": 2
 }
