@@ -1,0 +1,47 @@
+/*Stylesheet for inject.js
+ *
+ *Troy Daniels
+ *27/09/15
+ *For use under the GNU GPL v.2
+ */
+
+
+.tim-grotivate {
+    position: fixed;
+    z-index: 10;
+    left: 0px;
+    width: 750px;
+    height: 130px;
+    bottom: 15%;
+    background: #888888;
+    border-style: solid;
+    border-radius: 0px 65px 65px 0px;
+    border-width: 1px 2px 4px 0px ;
+    border-color: black;
+    opacity: 0.95;
+    filter: alpha(opacity=95);
+}
+  
+.tim-grotivate .tim-image {
+    position: relative;
+    top: 10px;
+    left: relative;
+    width: 97%;
+    background: #B0B0B0;
+    border-style: solid;
+    border-radius: 3px 50px 50px 3px;
+    border-width: 4px 2px 1px 1px ;
+    border-color: black;
+}
+
+.tim-grotivate .tim-quote{
+    position: absolute;
+    left: 175px;
+    top: 35px;
+    height: 60px;
+    overflow: hidden;
+    width: 65%;
+    font-size: large;
+    font-family: fantasy;    
+}
+
