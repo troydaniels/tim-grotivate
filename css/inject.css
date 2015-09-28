@@ -1,14 +1,14 @@
-/*Stylesheet for inject.js
+/**
+ * Stylesheet for inject.js
  *
- *Troy Daniels
- *27/09/15
- *For use under the GNU GPL v.2
+ * Troy Daniels
+ * 27/09/15
+ * For use under the GNU GPL v.2
  */
 
-
 .tim-grotivate {
-    position: fixed;
-    z-index: 9999999;
+    position: fixed !important;
+    z-index: 99999999 !important;
     left: 0px;
     width: 750px;
     height: 130px;
