@@ -1,12 +1,5 @@
-/*Manifest for Tim-spiration Chrome extension
- *
- *Troy Daniels
- *27/09/15
- *For use under the GNU GPL v.2
- */
-
 {
-  "name": "Tim Gro-tervation",
+  "name": "Tim-spiration",
   "description": "Feeling unmotivated? Get yourself some Tim Gro-tivation",
   "version": "1.0",
   "permissions": [
